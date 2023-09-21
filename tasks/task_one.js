@@ -5,7 +5,9 @@ Q1
 
 
 
-Q2
+
+
+
 const fs = require("fs");
 
 function appendTextToFile(text) {
@@ -15,6 +17,8 @@ function appendTextToFile(text) {
 
   fileStream.close();
 }
+
+
 
 
 
@@ -28,6 +32,11 @@ function listenForFolderChanges(folderPath) {
 
 
 
+
+
+
+
+
 const os = require('os');
 const arch = os.arch();
 
@@ -37,6 +46,9 @@ const hostname = os.hostname();
 console.log(`Operating system architecture: ${arch}`);
 console.log(`Operating system free memory available: ${freemem}`);
 console.log(`Hostname: ${hostname}`);
+
+
+
 
 
 
